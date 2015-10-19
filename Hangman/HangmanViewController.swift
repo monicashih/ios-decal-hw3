@@ -10,6 +10,12 @@ import UIKit
 
 class HangmanViewController: UIViewController {
 
+    @IBOutlet weak var newGame: UIButton!
+    @IBOutlet weak var enterText: UITextField!
+    @IBOutlet weak var previousGuess: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var enterGuess: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
